@@ -1,0 +1,22 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Cryptographic keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Temporary files
+*.log
+*.tmp
+!config/keys/keycloak-orders-public.pem
