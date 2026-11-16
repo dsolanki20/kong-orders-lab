@@ -1,0 +1,156 @@
+{
+  "info": {
+    "_postman_id": "b7786110-9dbd-4203-8a0e-0233b9aeda6d",
+    "name": "Kong-order-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "109496"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8000/orders/get",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/orders/get",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "orders",
+            "get"
+          ]
+        },
+        "description": "Generated from cURL: curl -i http://localhost:8000/orders/get"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/orders/anything",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "apikey",
+            "value": "o4FUOKuxmNipwY8EIFI8lN115lwbKtRI"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8000/orders/anything",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "orders",
+            "anything"
+          ]
+        },
+        "description": "Generated from cURL: curl -i http://localhost:8000/orders/anything"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/orders",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "apikey",
+            "value": "o4FUOKuxmNipwY8EIFI8lN115lwbKtRI"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8000/orders",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "orders"
+          ]
+        },
+        "description": "Generated from cURL: curl -i http://localhost:8000/orders"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/orders/101",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/orders/101?apikey=o4FUOKuxmNipwY8EIFI8lN115lwbKtRI",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "orders",
+            "101"
+          ],
+          "query": [
+            {
+              "key": "apikey",
+              "value": "o4FUOKuxmNipwY8EIFI8lN115lwbKtRI"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl -i http://localhost:8000/orders/101"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/orders-jwt/anything",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJEM1FPZmJHakNxbmRCWmg5Z3o2cTVWYUhSRk5hd3FsYSIsImV4cCI6MTc5NDgyMjA1OX0.2XG-Sno_54gfbAr8JEFWzwoNzU1sas75Rrf5xXYmF-Y"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8000/orders-jwt/anything",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "orders-jwt",
+            "anything"
+          ]
+        },
+        "description": "Generated from cURL: curl -i http://localhost:8000/orders-jwt/anything"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/orders-oauth/get",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/orders-oauth/get",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "orders-oauth",
+            "get"
+          ]
+        },
+        "description": "Generated from cURL: curl -i http://localhost:8000/orders-oauth/get"
+      },
+      "response": []
+    }
+  ]
+}
